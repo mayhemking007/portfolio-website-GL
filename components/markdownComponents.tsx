@@ -1,16 +1,24 @@
+import React from "react";
+import ThemedMarkdownImage from "./ThemedMarkdownImage";
+
 /** Shared ReactMarkdown components for MarkdownViewer and ExperienceView. */
+const isResumeLink = (href?: string | null) =>
+  href === "/download/resume.pdf" || href?.endsWith("/download/resume.pdf");
+
 export const markdownComponents = {
-  a: ({ href, children, ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => (
-    <a
-      href={href}
-      target="_blank"
-      rel="noopener noreferrer"
-      className="text-[var(--accent)] underline hover:no-underline"
-      {...props}
-    >
-      {children}
-    </a>
-  ),
+  a: ({ href, children, ...props }: React.AnchorHTMLAttributes<HTMLAnchorElement>) => {
+    const isDownload = isResumeLink(href);
+    return (
+      <a
+        href={href}
+        {...(isDownload ? { download: "resume.pdf" } : { target: "_blank", rel: "noopener noreferrer" })}
+        className="text-[var(--accent)] underline hover:no-underline"
+        {...props}
+      >
+        {children}
+      </a>
+    );
+  },
   h1: ({ children, ...props }: React.HTMLAttributes<HTMLHeadingElement>) => (
     <h1 className="mb-4 mt-6 border-b border-[var(--border-default)] pb-2 font-sans text-2xl font-semibold text-[var(--foreground)]" {...props}>
       {children}
@@ -95,5 +103,8 @@ export const markdownComponents = {
     <td className="px-4 py-2.5" {...props}>
       {children}
     </td>
+  ),
+  img: (props: React.ImgHTMLAttributes<HTMLImageElement>) => (
+    <ThemedMarkdownImage {...props} />
   ),
 };

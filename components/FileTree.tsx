@@ -63,7 +63,7 @@ export default function FileTree({
           }
           const contentPath = item.name;
           const isActive = currentPath === contentPath;
-          const href = contentPath === "README.md" ? "/" : contentPathToHref(contentPath);
+          const href = contentPath === "about.md" ? "/" : contentPathToHref(contentPath);
           return (
             <li key={item.name} data-file>
               <Link

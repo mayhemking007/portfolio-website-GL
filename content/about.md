@@ -1,7 +1,14 @@
-Backend Engineer experienced in designing scalable, fault-tolerant systems for production environments at Tata
-Consultancy Services. Built distributed processing pipelines, optimized REST APIs for high-traffic workloads, and
-engineered low-latency semantic retrieval systems using PostgreSQL (pgvector) and HNSW indexing. Proficient in Node.js,
-database optimization, and backend architecture with strong algorithmic foundations (700+ LeetCode). 
+Backend engineer focused on building **scalable, reliable systems** and solving **real-world engineering problems**. Currently working at **Tata Consultancy Services**, developing backend services for a **large-scale procurement platform** used by **4+ lakh users**.
 
-Focused on building performant systems that scale reliably and handle real-world complexity.
+I work primarily with **Node.js, PostgreSQL, Redis, and distributed system patterns**, and enjoy **optimizing APIs and backend workflows** for **performance and reliability**. I'm **highly adaptive**, **curious about new technologies**, and enjoy **exploring better ways to design and scale systems**.
+
+Always interested in **learning, experimenting, and building systems** that work well under **real production constraints**.
+
+---
+
+## 📊 GitHub Activity
+
+![GitHub Activity Graph](https://github-readme-activity-graph.vercel.app/graph?username=mayhemking007&theme=github-light)
+
+
 

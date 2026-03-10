@@ -7,7 +7,6 @@ export type FileTreeNode =
     };
 
 export const FILE_TREE: FileTreeNode[] = [
-  { type: "file", name: "README.md" },
   { type: "file", name: "about.md" },
   { type: "file", name: "skills.md" },
   { type: "file", name: "experience.md" },
@@ -21,6 +20,7 @@ export const FILE_TREE: FileTreeNode[] = [
       { type: "file", name: "log-aggregation.md" },
     ],
   },
+  { type: "file", name: "README.md" },
   { type: "file", name: "LICENSE.md" }
 ];
 

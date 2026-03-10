@@ -27,7 +27,7 @@ export default function RepoHeader() {
               />
             )}
             {lastCommit && (
-              <span>
+              <span className="hidden md:inline">
                 Last commit: {lastCommit}
                 {lastCommitAge && (
                   <>
@@ -42,7 +42,7 @@ export default function RepoHeader() {
           <HeaderSocialLinks />
         </div>
         <div className="flex flex-1 items-center justify-end gap-4">
-          <span className="inline-flex items-center gap-2 rounded-md border border-[var(--border-default)] bg-[var(--background)] px-3 py-1.5 font-mono text-sm font-normal text-[var(--foreground-muted)] shadow-sm">
+          <span className="hidden md:inline-flex items-center gap-2 rounded-md border border-[var(--border-default)] bg-[var(--background)] px-3 py-1.5 font-mono text-sm font-normal text-[var(--foreground-muted)] shadow-sm">
             <span
               className="h-2 w-2 shrink-0 rounded-full bg-green-500"
               style={{ animation: "status-dot-pulse 2s ease-in-out infinite" }}
@@ -50,7 +50,9 @@ export default function RepoHeader() {
             />
             Open to Opportunities
           </span>
-          <DateTimeDisplay />
+          <span className="hidden md:block">
+            <DateTimeDisplay />
+          </span>
           <ThemeToggle />
         </div>
       </div>

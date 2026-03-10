@@ -14,20 +14,25 @@ export type ResolvedPath =
 
 /**
  * Resolve URL path segments to either a file (content path) or a directory (folder name).
- * / → README.md
+ * / → about.md
  * /about → about.md
+ * /readme → README.md
  * /projects → directory 'projects'
  * /projects/rag-pipeline.md → projects/rag-pipeline.md
  */
 export function resolveUrlPath(pathSegments: UrlPath): ResolvedPath {
   if (!pathSegments || pathSegments.length === 0) {
-    return { type: "file", contentPath: "README.md" };
+    return { type: "file", contentPath: "about.md" };
   }
 
   if (pathSegments.length === 1) {
     const segment = pathSegments[0];
     if (FOLDER_NAMES.includes(segment)) {
       return { type: "directory", folderName: segment };
+    }
+    // /readme → README.md (URL is lowercase; content path is README.md)
+    if (segment.toLowerCase() === "readme") {
+      return { type: "file", contentPath: "README.md" };
     }
     const contentPath = segment.includes(".md")
       ? segment
@@ -45,9 +50,10 @@ export function resolveUrlPath(pathSegments: UrlPath): ResolvedPath {
   return { type: "notFound" };
 }
 
-/** Content path to URL path string. README.md → '', about.md → '/about', projects/rag-pipeline.md → '/projects/rag-pipeline.md'. */
+/** Content path to URL path string. about.md → '' (root), README.md → '/readme', other root files → '/name', projects/rag-pipeline.md → '/projects/rag-pipeline.md'. */
 export function contentPathToUrl(contentPath: string): string {
-  if (contentPath === "README.md") return "";
+  if (contentPath === "about.md") return "";
+  if (contentPath === "README.md") return "/readme";
   if (!contentPath.includes("/")) {
     return "/" + (contentPath.endsWith(".md") ? contentPath.slice(0, -3) : contentPath);
   }

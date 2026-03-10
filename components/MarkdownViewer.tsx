@@ -29,7 +29,7 @@ export default function MarkdownViewer({
               href="/"
               className="text-[var(--accent)] underline hover:no-underline"
             >
-              Back to README
+              Back to home
             </a>
           </p>
         ) : isSkillsPage ? (

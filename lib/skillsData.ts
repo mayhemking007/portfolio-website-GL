@@ -6,7 +6,7 @@ export const SKILLS_SECTIONS: {
   {
     title: "Languages",
     items: [
-      { name: "Python", slug: "python" },
+      { name: "C++", slug: "cplusplus" },
       { name: "JavaScript", slug: "javascript" },
       { name: "TypeScript", slug: "typescript" },
     ],
@@ -16,7 +16,14 @@ export const SKILLS_SECTIONS: {
     items: [
       { name: "Node.js", slug: "nodedotjs" },
       { name: "Express.js", slug: "express" },
-      { name: "FastAPI", slug: "fastapi" },
+      { name: "NestJs", slug: "nestjs" },
+    ],
+  },
+  {
+    title: "Frontend",
+    items: [
+      { name: "React.js", slug: "react" },
+      { name: "Next.js", slug: "nextdotjs" },
     ],
   },
   {
@@ -24,7 +31,16 @@ export const SKILLS_SECTIONS: {
     items: [
       { name: "PostgreSQL", slug: "postgresql" },
       { name: "MongoDB", slug: "mongodb" },
+      { name: "MySQL", slug: "mysql" },
       { name: "Redis", slug: "redis" },
+    ],
+  },
+  {
+    title: "Messaging & Queues",
+    items: [
+      { name: "Apache Kafka", slug: "apachekafka" },
+      { name: "BullMQ", slug: "redbull" },
+      
     ],
   },
   {
@@ -32,8 +48,8 @@ export const SKILLS_SECTIONS: {
     items: [
       { name: "Retrieval Augmented Generation (RAG)", slug: "openaigym" },
       { name: "Vector Databases", slug: "huggingface" },
-      { name: "Embedding Pipelines", slug: "openaigym" },
-      { name: "RAG Evaluation", slug: "huggingface" },
+      { name: "Embedding Pipelines", slug: "claude" },
+      { name: "RAG Evaluation", slug: "googlegemini" },
     ],
   },
   {
@@ -41,7 +57,7 @@ export const SKILLS_SECTIONS: {
     items: [
       { name: "Docker", slug: "docker" },
       { name: "Linux", slug: "linux" },
-      { name: "AWS", slug: "amazonaws" },
+      { name: "AWS", slug: "icloud" },
       { name: "CI/CD", slug: "githubactions" },
     ],
   },

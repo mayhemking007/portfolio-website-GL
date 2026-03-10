@@ -5,7 +5,7 @@ export const siteConfig = {
   githubUrl: "https://github.com/mayhemking007",
   githubRepoUrl: "https://github.com/mayhemking007/portfolio-website-GL.git",
   repoMeta: {
-    stars: 42,
+    stars: 68,
     forks: 7,
     language: "TypeScript",
   },

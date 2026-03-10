@@ -15,8 +15,8 @@ export default async function PathPage({
 
   if (resolved.type === "notFound") {
     return (
-      <AppShell currentPath="README.md" currentDirectory={undefined}>
-        <Breadcrumb pathSegments={["README.md"]} isDirectory={false} />
+      <AppShell currentPath="about.md" currentDirectory={undefined}>
+        <Breadcrumb pathSegments={["about.md"]} isDirectory={false} />
         <MarkdownViewer content={null} notFound />
       </AppShell>
     );

@@ -2,7 +2,6 @@
 
 🚀 **Backend Engineer** focused on **Distributed Systems, Backend APIs, and AI Infrastructure**
 
-🟢 **Open to opportunities**
 
 ---
 
@@ -50,7 +49,7 @@ Once on GitHub, you can fork it normally and create your own version.
 Example clone command:
 
 ```
-git clone https://github.com/<your-username>/portfolio
+git clone https://github.com/mayhemking007/portfolio-website-GL.git
 ```
 
 Steps after forking:
