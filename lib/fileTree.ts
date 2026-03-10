@@ -11,7 +11,7 @@ export const FILE_TREE: FileTreeNode[] = [
   { type: "file", name: "about.md" },
   { type: "file", name: "skills.md" },
   { type: "file", name: "experience.md" },
-  { type: "file", name: "architecture.md" },
+  { type: "file", name: "contact.md" },
   {
     type: "folder",
     name: "projects",
@@ -21,16 +21,7 @@ export const FILE_TREE: FileTreeNode[] = [
       { type: "file", name: "log-aggregation.md" },
     ],
   },
-  {
-    type: "folder",
-    name: "skills",
-    children: [
-      { type: "file", name: "frontend.md" },
-      { type: "file", name: "backend.md" },
-      { type: "file", name: "infrastructure.md" },
-    ],
-  },
-  { type: "file", name: "contact.md" },
+  { type: "file", name: "LICENSE.md" }
 ];
 
 /** All valid content paths for validation and links. */
@@ -39,14 +30,11 @@ export const CONTENT_PATHS: string[] = [
   "about.md",
   "skills.md",
   "experience.md",
-  "architecture.md",
+  "LICENSE.md",
   "contact.md",
   "projects/rag-pipeline.md",
   "projects/event-system.md",
   "projects/log-aggregation.md",
-  "skills/frontend.md",
-  "skills/backend.md",
-  "skills/infrastructure.md",
 ];
 
 export function isContentPath(path: string): boolean {

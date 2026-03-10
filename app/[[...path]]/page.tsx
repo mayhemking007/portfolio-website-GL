@@ -47,6 +47,7 @@ export default async function PathPage({
         <MarkdownViewer
           content={content}
           notFound={content === null}
+          contentPath={resolved.type === "file" ? resolved.contentPath : undefined}
         />
       )}
     </AppShell>
