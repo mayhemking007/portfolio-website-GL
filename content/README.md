@@ -1,7 +1,4 @@
-# Sarthak Chaturvedi
-
-🚀 **Backend Engineer** focused on **Distributed Systems, Backend APIs, and AI Infrastructure**
-
+# Sarthak Chaturvedi Portfolio
 
 ---
 
@@ -43,20 +40,6 @@ When you click it:
 1. A modal will appear showing the **GitHub repository URL**
 2. You can **copy the repository link**
 3. Or click **View Source** to open the GitHub repository page
-
-Once on GitHub, you can fork it normally and create your own version.
-
-Example clone command:
-
-```
-git clone https://github.com/mayhemking007/portfolio-website-GL.git
-```
-
-Steps after forking:
-
-1. Clone your fork locally
-2. Update the Markdown files with your own information
-3. Deploy your portfolio
 
 ---
 

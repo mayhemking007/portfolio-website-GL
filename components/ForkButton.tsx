@@ -54,7 +54,7 @@ export default function ForkButton({ repoUrl, forkCount }: ForkButtonProps) {
         contentClassName="w-[34rem] min-w-[34rem] max-w-[calc(100vw-2rem)] rounded-lg border border-[var(--border-default)] bg-[var(--background)] p-6 shadow-lg"
       >
         <div className="font-mono text-sm text-[var(--foreground)]">
-          Fork this repo using the link below
+          Clone this repo using the link below
         </div>
         <div className="mt-4 flex w-full items-center gap-2 rounded border border-[var(--border-default)] bg-[var(--background)] px-3 py-2 font-mono text-sm text-[var(--foreground)]">
           <span className="min-w-0 flex-1 break-all">{repoUrl}</span>
@@ -71,6 +71,9 @@ export default function ForkButton({ repoUrl, forkCount }: ForkButtonProps) {
               Copied!
             </span>
           )}
+        </div>
+        <div className="mt-4 font-mono text-sm text-[var(--foreground)]">
+          To Fork this repo -
         </div>
         <div className="mt-4">
           <button
