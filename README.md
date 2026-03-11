@@ -7,14 +7,6 @@ Instead of navigating a traditional portfolio page, visitors explore the site th
 
 ---
 
-## 🌐 Live Website
-
-You can view the portfolio here:
-
-**Live Demo:** https://your-portfolio-link.com
-
----
-
 ## 📂 Repository Navigation
 
 The portfolio is structured like a repository where each file represents a section of the profile.
