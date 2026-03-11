@@ -1,4 +1,4 @@
-Backend engineer focused on building **scalable, reliable systems** and solving **real-world engineering problems**. Currently working at **Tata Consultancy Services**, developing backend services for a **large-scale procurement platform** used by **4+ lakh users**.
+Backend engineer focused on building **scalable, reliable systems** and solving **real-world engineering problems**. Currently working at **Tata Consultancy Services**, developing backend services for a **large-scale procurement platform**.
 
 I work primarily with **Node.js, PostgreSQL, Redis, and distributed system patterns**, and enjoy **optimizing APIs and backend workflows** for **performance and reliability**. I'm **highly adaptive**, **curious about new technologies**, and enjoy **exploring better ways to design and scale systems**.
 

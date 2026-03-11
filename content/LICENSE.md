@@ -1,30 +1,53 @@
-# MIT License
+# 📜 License
 
-Copyright (c) 2026 Sarthak Chaturvedi
+This portfolio is **open-source friendly** and designed to be **forked, explored, and adapted**.
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the **"Software"**), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+If this repository helps you build your own portfolio or learn something new — that's awesome.
 
----
+Go ahead and:
 
-## Conditions
+* 🍴 **Fork it**
+* 🧩 **Modify it**
+* 🚀 **Build your own version**
+* 🛠 **Experiment with the structure**
 
-The above copyright notice and this permission notice shall be included in
-all copies or substantial portions of the Software.
+Open-source thrives when people **share ideas and build on each other's work**.
 
 ---
 
-## Disclaimer
+## 🙌 A Small Request
 
-THE SOFTWARE IS PROVIDED **"AS IS"**, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+You're welcome to reuse the **code and structure**, but the **content, projects, and experience described here belong to Sarthak Chaturvedi**.
 
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM,
-DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE,
-ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER
-DEALINGS IN THE SOFTWARE.
+If you reuse the structure for your own portfolio, just make sure to:
+
+* replace the personal content
+* add your own projects
+* make it your own
+
+---
+
+## ⚖️ Legal Stuff (MIT License)
+
+This project is released under the **MIT License**, which basically means:
+
+* you can use the code
+* modify it
+* distribute it
+* build on top of it
+
+The only requirement is that the original license notice remains included.
+
+---
+
+## 🧠 The Spirit of This Repo
+
+This portfolio exists to:
+
+* promote **learning by building**
+* encourage **open-source collaboration**
+* share ideas about **backend engineering and system design**
+
+If you fork this project and build something cool with it — I'd love to see it.
+
+Happy hacking 🚀
