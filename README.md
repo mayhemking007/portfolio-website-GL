@@ -68,7 +68,7 @@ Steps:
 2. Clone your fork
 
 ```bash
-git clone https://github.com/your-username/portfolio
+git clone https://github.com/mayhemking007/portfolio-website-GL
 ```
 
 3. Replace the Markdown content with your own information

@@ -15,7 +15,7 @@ const jetbrainsMono = JetBrains_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Portfolio",
+  title: "Sarthak Chaturvedi | Backend Engineer",
   description: "Backend engineer portfolio — GitHub style.",
 };
 
