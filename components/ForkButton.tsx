@@ -51,7 +51,7 @@ export default function ForkButton({ repoUrl, forkCount }: ForkButtonProps) {
       <Modal
         open={open}
         onClose={() => setOpen(false)}
-        contentClassName="w-[34rem] min-w-[34rem] max-w-[calc(100vw-2rem)] rounded-lg border border-[var(--border-default)] bg-[var(--background)] p-6 shadow-lg"
+        contentClassName="w-[34rem] min-w-[34rem] max-w-[calc(100vw-2rem)] max-[400px]:w-full max-[400px]:min-w-0 max-[400px]:max-w-[calc(100vw-2rem)] rounded-lg border border-[var(--border-default)] bg-[var(--background)] p-4 sm:p-6 shadow-lg"
       >
         <div className="font-mono text-sm text-[var(--foreground)]">
           Clone this repo using the link below
