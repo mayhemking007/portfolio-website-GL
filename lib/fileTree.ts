@@ -16,6 +16,7 @@ export const FILE_TREE: FileTreeNode[] = [
     name: "projects",
     children: [
       { type: "file", name: "ai-customer-support.md" },
+      {type : "file", name : "search-engine.md"},
       { type: "file", name: "rag-evaluation-pipeline.md" },
       { type: "file", name: "team-track.md" },
     ],
@@ -35,6 +36,7 @@ export const CONTENT_PATHS: string[] = [
   "projects/rag-evaluation-pipeline.md",
   "projects/ai-customer-support.md",
   "projects/team-track.md",
+  "projects/search-engine.md"
 ];
 
 export function isContentPath(path: string): boolean {
